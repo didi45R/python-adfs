@@ -1,2 +1,3 @@
 # python-adfs
-Python module for interacting with ADFS &amp; OIDC at ease
+
+Python module for interacting with Microsoft ADFS and OIDC at ease
