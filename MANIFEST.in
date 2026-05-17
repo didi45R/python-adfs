@@ -1,0 +1,4 @@
+include README.md
+include LICENSE
+include pyadfs/py.typed
+recursive-include pyadfs *.pyi
