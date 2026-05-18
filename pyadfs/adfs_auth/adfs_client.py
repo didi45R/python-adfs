@@ -196,5 +196,5 @@ class ADFSClient:
             raise JWKSFetchError(
                 f"OpenID configuration is missing required fields (jwks_uri and/or issuer): {list(data.keys())}"
             )
-        logger.debug("Fetched OIDC config - issuer: %s, jwks_uri: %s", data["access_token_issuer"], data["jwks_uri"])
+        logger.debug("Fetched OIDC config - issuer: %s, jwks_uri: %s", data.get("issuer"), data["jwks_uri"])
         return OIDCConfig(data)
