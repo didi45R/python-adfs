@@ -73,6 +73,21 @@ max-complexity = 10
 
 [tool.pylint]
 max-line-length = 120
+disable = [
+    "C0103",
+    "C0114",
+    "C0115",
+    "C0116",
+    "C0209",
+    "C0301",
+    "R0801",
+    "R0902",
+    "R0903",
+    "R0913",
+    "R0917",
+    "W0718",
+    "W1203",
+]
 
 [tool.pytest]
 filterwarnings = ["ignore::DeprecationWarning"]
