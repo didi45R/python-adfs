@@ -40,7 +40,7 @@ __all__ = [
 ]
 
 __title__ = "python-adfs"
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 __description__ = "ADFS client library for Python"
 __author__ = "Yedidya Rosenstark"
 __author_email__ = "yedidya.rosenstark@gmail.com"
