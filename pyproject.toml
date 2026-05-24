@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "python-adfs"
-version = "1.0.0"
+version = "1.0.1"
 description = "Python module for interacting with Microsoft ADFS and OIDC at ease"
 readme = "README.md"
 urls = { "GitHub" = "https://github.com/Didi45R/python-adfs" }
