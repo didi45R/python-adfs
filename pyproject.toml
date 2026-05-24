@@ -7,6 +7,7 @@ name = "python-adfs"
 version = "1.0.0"
 description = "Python module for interacting with Microsoft ADFS and OIDC at ease"
 readme = "README.md"
+urls = { "GitHub" = "https://github.com/Didi45R/python-adfs" }
 requires-python = ">=3.9"
 classifiers = [
     "Development Status :: 3 - Alpha",
